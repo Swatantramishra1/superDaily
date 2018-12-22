@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+div {
+  font-family:'Roboto', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+p {
+  margin: 0;
+}
+.flex {
+  display: flex;
+}
+.center {
+  text-align: center;
+}

@@ -1,0 +1,121 @@
+.Main {
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+.card {
+    padding: 8px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+.card > .card-image {
+    width: 80px;
+    height: 80px;
+}
+.card > .card-details {
+    width: 80%;
+    flex-direction: column;
+    padding-left: 20px;
+  
+}
+.card > .card-details > .card-header-text {
+    color: #3d4152;
+    font-size: 1rem;
+    font-weight: 600;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.card > .card-details > .card-sub-header-text {
+    color: #535665;
+    font-size: 13px;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 3px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.divider {
+    height: 1px;
+    border: 0.1px solid #8080802b;
+}
+
+.card .card-details .card-footer {
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card:hover {
+    box-shadow: 0 1px 2px 1px #80808073;
+}
+.stars {
+    line-height: 10px;
+}
+.star-text {
+    padding-left: 5px;
+    display: flex;
+    background-color: #3e2e24;
+    color: white;
+    padding:2px 4px;
+    border-radius: 4px;
+}
+.star-text > i {
+    padding-right: 3px;
+}
+.fa-star::after {
+   margin-left: 10px;
+}
+
+
+/* Media Query For DeskTop */
+
+@media(min-width:768px) {
+    .Main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 20px;
+        height: calc(100vh - 130px);
+    }
+    .card {
+        width: 32%;
+        margin: 9px;
+        border: 1px solid #c6c7cd;
+        max-height: 100px;
+    }
+    .card > .card-details > .card-sub-header-text {
+        margin-bottom: 10px;
+    }
+    .card > .card-image {
+        border-radius: 4px;
+    }
+}
+
+
+@media (min-width:768px ) and (max-width:812px) {
+    .Main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 20px;
+        height: calc(100vh - 130px);
+    }
+    .card {
+        width: 46%;
+        margin: 9px;
+        border: 1px solid #c6c7cd;
+        max-height: 100px;
+    }
+    .card > .card-details > .card-sub-header-text {
+        margin-bottom: 10px;
+    }
+    .card > .card-image {
+        border-radius: 4px;
+    }
+}
+

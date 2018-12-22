@@ -1,0 +1,82 @@
+/* Style the search field */
+
+.Search {
+    width: 100%;
+}
+form.form-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .header-section {
+    width: 100%;
+    flex-direction: column;
+}
+
+.search-history {
+    align-items: start !important;
+    justify-content: flex-start !important;
+    padding-left: 7%;
+    z-index: 400;
+}
+.recent-search {
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  padding-left: 7%;
+  color: darkgrey;
+  font-size: 15px;
+  margin-top: 5px;
+}
+.search-history ul {
+  list-style: none;
+  font-size: 14px;
+  color: #757575;
+  line-height: 22px;
+}
+
+form.form-search input[type=text] {
+    padding: 10px;
+    border: none;
+    width: 80%;
+    font-size: 17px;
+    float: left;
+    background:white;
+    border-bottom: 1px solid #7e808c47;
+    outline: none;
+
+  }
+ 
+  /* Style the submit button */
+  form.form-search button {
+    float: left;
+    width: 8%;
+    padding: 10px;
+    color: black;
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+    border-bottom: 1px solid #7e808c47;
+  }
+
+  form.form-search span {
+    border-radius: 50%;
+    text-align: center;
+    background-color: #d9d9d9;
+    padding: 4px;
+  }
+  
+  form.form-search button:hover {
+    background: white;
+    outline: none;
+}
+  
+  /* Clear floats */
+  form.form-search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
