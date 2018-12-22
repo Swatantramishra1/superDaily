@@ -1,6 +1,6 @@
 const Config = {
     api: {
-      base_url: 'http://xv99r.mocklab.io',
+      base_url: 'https://xv99r.mocklab.io',
       getDetails:'/getResDetails'
     }
   };
