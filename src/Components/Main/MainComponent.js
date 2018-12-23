@@ -18,7 +18,6 @@ class MainComponent extends React.Component {
                 <h5 className="card-sub-header-text">{dt.res_cusines.join(',')}</h5>
                 <div className="divider"></div>
                 <div className="flex card-footer">
-
                     <span>
                         <span className="star-text"><i className="fa fa-star"></i> {dt.res_rating}</span></span>
                     <span>{dt.d_time} Min</span>

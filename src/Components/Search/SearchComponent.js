@@ -17,7 +17,7 @@ class SearchComponent extends React.Component {
                             placeholder="Search.."
                             autofocus
                             onChange={event => this.props.propsHandlerFooter.filterData(event.target.value)} />
-                        <button type="submit"><i className="fa fa-search"></i></button>
+                        <i className="fa fa-search"></i>
                         <span onClick={() => this.props.propsHandlerFooter.clickFilter(false)}>X</span>
                     </form>
                     <p className="recent-search">Recent Search</p>
