@@ -15,7 +15,6 @@ This project is created for Forntend Challenge of Super Daily.
 
 ### `Phase 1`
 
-Decide scema for list of restaurants
     1- Used `mocklab.io` for fake api
     2-  { d_time: 43
         res_cusines: (2) ["South Indian", "Chinies"]
