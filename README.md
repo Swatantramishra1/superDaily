@@ -35,14 +35,13 @@ Decided what screen need to target first
     > Screen is compactible with 768px less than all screen and greater too.
 
 
-### `Phase 4`   
+### `Phase 4 (Initialized basic project setup part )`   
 
-Initialized basic project setup part 
-    > Using create-react-app to create boiler plate 
-    > installed required packages like react-redux, redux-thunk etc.
-    > Decided project folder structure and Component structure
-    > Going with one stateless and statefull component styling
-    > Created 5 component like  > 
+    Using create-react-app to create boiler plate 
+    installed required packages like react-redux, redux-thunk etc.
+    Decided project folder structure and Component structure
+    Going with one stateless and statefull component styling
+    Created 5 component like  > 
                                 * Main Component
                                 * Header Component
                                 * Footer Component
