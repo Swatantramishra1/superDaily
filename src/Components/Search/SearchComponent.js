@@ -5,6 +5,9 @@ class SearchComponent extends React.Component {
     constructor(props) {
         super(props);
     }
+    componentDidMount() {
+        document.querySelector('input').focus()
+    }
     render() {
         const RECENT_SEARCH = this.props.propsHandlerFooter.searchHistory.map(dt => <li onClick={ () => this.props.propsHandlerFooter.filterData(dt)}> {dt}</li>)
         return (
