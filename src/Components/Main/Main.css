@@ -2,6 +2,7 @@
     height: calc(100vh - 120px);
     overflow-x: hidden;
     overflow-y: auto;
+    margin-top: 50px;
 }
 .card {
     padding: 8px;
@@ -80,8 +81,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         display: flex;
-        margin-top: 20px;
-        height: calc(100vh - 130px);
+        height: calc(100vh - 100px);
     }
     .card {
         width: 32%;
@@ -103,8 +103,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         display: flex;
-        margin-top: 20px;
-        height: calc(100vh - 150px);
+        height: calc(100vh - 100px);
     }
     .card {
         width: 46%;

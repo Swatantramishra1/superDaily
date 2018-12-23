@@ -16,7 +16,6 @@ class App extends Component {
     
   }
 
-
   clickFilter(data) {
     this.props.setFilterData(data);
     this.filterData("");
@@ -30,6 +29,9 @@ class App extends Component {
   filterData(dt) {
     const SEARCHED_DATA = this.props.MAINREDUCER.resData.map ((d,index) => {
       if (d.res_name.toLocaleLowerCase().includes(dt.toLocaleLowerCase())) {
+        return d;
+      }
+      if (d.res_cusines.filter(cuisine => cuisine.toLocaleLowerCase().indexOf(dt.toLocaleLowerCase()) != -1).length > 0) {
         return d;
       }
     }).filter((dt) => dt !== undefined || dt !== null)

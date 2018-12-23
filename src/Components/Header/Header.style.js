@@ -8,6 +8,11 @@ const HeaderWrapper = styled.div`
     justify-content: space-between;
     align-items: center;
     padding: 8px 16px;
+    position: fixed;
+    top: -3px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 7px -2px grey;
 
     div {
         display:flex;
