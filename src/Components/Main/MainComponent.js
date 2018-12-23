@@ -1,4 +1,5 @@
 import React from 'react';
+import NODATFOUND from '../NoDataFound/NoDataFoundComponent';
 
 import './Main.css';
 class MainComponent extends React.Component {
@@ -23,7 +24,7 @@ class MainComponent extends React.Component {
                     <span>{dt.d_time} Min</span>
                 </div>
             </div>
-        </div>) : 'No Data Found'
+        </div>) : <NODATFOUND />
 
         return (
             <div className="Main">

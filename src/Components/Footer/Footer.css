@@ -1,4 +1,6 @@
 .Footer {
+    position: fixed;
+    z-index: 1000;
     justify-content: space-between;
     width: 100%;
     z-index: 120;
@@ -25,6 +27,7 @@ button {
     background-color: white;
     font-size: 13px;
     font-weight: 600;
+    cursor: pointer;
 }
 button:hover {
     background-color: #80808040;
@@ -50,6 +53,6 @@ button > span {
 button > span > i {
     margin-left: 2px;
 }
-@media (min-width:768px) {
-   
+.explore {
+    margin-right: 2px;
 }

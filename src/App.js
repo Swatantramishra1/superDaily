@@ -28,7 +28,7 @@ class App extends Component {
 
 
   filterData(dt) {
-    const SEARCHED_DATA = this.props.MAINREDUCER.resData.map((d, index) => {
+    const SEARCHED_DATA = this.props.MAINREDUCER.resData.map ((d,index) => {
       if (d.res_name.toLocaleLowerCase().includes(dt.toLocaleLowerCase())) {
         return d;
       }
@@ -49,7 +49,7 @@ class App extends Component {
   }
 
   onClickDeliveryTime(data) {
-    if (data == 1) {
+    if (data === 1) {
       const SEARCHED_DATA = this.props.MAINREDUCER.resData.sort((a, b) => a.d_time - b.d_time);
       this.props.reSetResData(SEARCHED_DATA);
     } else {
@@ -61,7 +61,7 @@ class App extends Component {
   }
 
   onClickRating(data) {
-    if (data == 1) {
+    if (data === 1) {
       const SEARCHED_DATA = this.props.MAINREDUCER.resData.sort((a, b) => a.res_rating - b.res_rating);
       this.props.reSetResData(SEARCHED_DATA);
     } else {

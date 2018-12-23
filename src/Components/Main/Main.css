@@ -1,6 +1,7 @@
 .Main {
-    height: calc(100vh - 100px);
-    overflow: auto;
+    height: calc(100vh - 120px);
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .card {
     padding: 8px;
@@ -103,7 +104,7 @@
         flex-wrap: wrap;
         display: flex;
         margin-top: 20px;
-        height: calc(100vh - 130px);
+        height: calc(100vh - 150px);
     }
     .card {
         width: 46%;

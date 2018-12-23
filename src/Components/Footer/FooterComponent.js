@@ -8,7 +8,7 @@ class FooterComponent extends React.Component {
         return (
             <div className="flex Footer">
                 <button className="flex" onClick={() => this.props.propsHandlerFooter.clickFilter(true)}>
-                    <i class="fa fa-search"></i>
+                    <i class="fa fa-search explore"></i>
                     Explore
                </button>
                 <button className="flex" onClick={() => this.props.propsHandlerFooter.onClickRating(this.props.propsHandlerFooter.setRating === 1 ? -1 : 1)}>
