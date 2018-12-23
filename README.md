@@ -3,7 +3,6 @@ This project is created for Forntend Challenge of Super Daily.
 
 ## Project Understanding
 
-Here is the following understanding:
     1- List of restaurants
     2- User can search from existing list
     3- Search History
